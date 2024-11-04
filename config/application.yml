@@ -1,0 +1,12 @@
+logger:
+  # 日志输出，file：文件，default：命令行，其他：命令行
+  stdout: default #控制台日志，启用后，不输出到文件
+  # 日志等级, trace, debug, info, warn, error, fatal
+  level: info
+regions:
+  hk:
+    region: hk
+    machines:
+      - ip: 127.0.0.1
+        startPort: 60000
+        endPort: 60200
